@@ -1,0 +1,22 @@
+{
+  "short_name": "cpch",
+  "name": "Chinpin Chen",
+  "icons": [
+    {
+      "src": "/img/touch-icons/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/touch-icons/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f2613d",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "theme_color": "#f2613d"
+}
