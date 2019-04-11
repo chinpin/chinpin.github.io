@@ -3,12 +3,12 @@
   "name": "Chinpin Chen",
   "icons": [
     {
-      "src": "/img/touch-icons/192x192.png",
+      "src": "/img/touch-icons/icon_192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/touch-icons/512x512.png",
+      "src": "/img/touch-icons/icon_512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
