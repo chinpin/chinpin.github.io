@@ -70,13 +70,37 @@
 </head>
 <body>
   <div id="nav">
-    <div>please enable you js</div>
+    <ul class="nav_ul">
+      <li class="nav_li nav_home"><a href="/"><span>home</span></a></li>
+      <li class="nav_li nav_work"><a href="/work"><span>work</span></a></li>
+      <li class="nav_li nav_about"><a href="/about"><span>about</span></a></li>
+      <li class="nav_li nav_resume"><a href="/resume"><span>resume</span></a></li>
+      <li class="nav_li nav_notes"><a href="/notes"><span>notes</span></a></li>
+      <li class="nav_li nav_random">
+        <a href="/random" name="random"><span>random</span>
+        <svg viewBox="-1 -1 46 46">
+          <path d="M 12.411 9.58896 C 12.411 4.79448 17.2055 0 22 0 C 39.2055 24.8221 44 29.6166 44 34.411 C 44 39.2055 39.2055 44 9.58896 44 C 4.79448 44 0 39.2055 12.411 9.58896 Z">
+            <animate
+              attributeName="d"
+              dur="3000ms"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keyTimes=" 0;.2; .33;.53; .66;.86; 1"
+              keySplines=" 0,0,1,1;.42,0,.58,1; 0,0,1,1;.42,0,.58,1; 0,0,1,1;.42,0,.58,1"
+              values=" M 0,0 C 22,0 22,0 44,0 44,22 44,22 44,44 22,44 22,44 0,44 0,22 0,22 0,0 Z; M 0,0 C 22,0 22,0 44,0 44,22 44,22 44,44 22,44 22,44 0,44 0,22 0,22 0,0 Z; M 22,0 C 22,0 22,0 22,0 44,44 44,44 44,44 44,44 44,44 0,44 0,44 0,44 22,0 Z; M 22,0 C 22,0 22,0 22,0 44,44 44,44 44,44 44,44 44,44 0,44 0,44 0,44 22,0 Z; M 0,22 C 0,11 11,0 22,0 33,0 44,11 44,22 44,33 33,44 22,44 11,44 0,33 0,22 Z; M 0,22 C 0,11 11,0 22,0 33,0 44,11 44,22 44,33 33,44 22,44 11,44 0,33 0,22 Z; M 0,0 C 22,0 22,0 44,0 44,22 44,22 44,44 22,44 22,44 0,44 0,22 0,22 0,0 Z;"></animate>
+          </path>
+        </svg>
+        </a>
+      </li>
+    </ul>
   </div>
-  <div id="pp"></div>
   <div class="container">
-    <h1>Chinpin Chen is an interaction designer &amp; front-end developer based in San Francisco.</h1>
+    <div class="row screen-height align-items-center">
+      <div class="col">
+        <h1 class="intro">Chinpin Chen is an interaction designer &amp; front-end developer based in San Francisco.</h1>
+      </div>
+    </div>
   </div>
   <script src="index.js" type="text/javascript"></script>
-  <script src="random.js" type="text/javascript"></script>
 </body>
 </html>
