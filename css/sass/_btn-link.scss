@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  &, &:active, &:visited {
+    color: var(--main-color, #000);
+  }
+  &:hover, &:focus {
+    color: var(--main-color, #000);
+  }
+}

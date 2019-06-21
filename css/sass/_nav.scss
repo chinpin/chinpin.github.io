@@ -1,0 +1,110 @@
+#nav {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+  height: 44px;
+  overflow: hidden;
+  z-index: 1030;
+  @media screen and (min-width:768px) {
+    top: 20px;
+  }
+}
+.nav_ul {
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 2em;
+  @media screen and (max-width:767px) {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+}
+.nav_li {
+  a {
+    padding: 12px 15px;
+    display: block;
+  }
+}
+.nav_home {
+  margin-left: 12px;
+  margin-right: 12px;
+  @media screen and (min-width:768px) {
+    margin-left: 24px;
+  }
+  a {
+    height: 44px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a:before {
+    content: "";
+    width: 48px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 24px;
+    transform: skewX(-30deg);
+    border-left: 36px solid;
+    border-right: 6px solid;
+  }
+  svg {
+    width: 44px;
+    vertical-align: middle;
+  }
+  path {
+    fill: var(--main-color, #000);
+  }
+}
+.nav_home, .nav_random {
+  span {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 50%;
+  }
+  a:focus {
+    outline: none;
+  }
+}
+.nav_random {
+  margin-left: auto;
+  margin-right: 12px;
+  @media screen and (min-width:768px) {
+    margin-right: 24px;
+  }
+  a {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+  path {
+    stroke: var(--main-color, #000);
+    stroke-width: 2;
+    fill: none;
+  }
+}
