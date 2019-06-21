@@ -77,7 +77,9 @@ class Nav extends React.Component {
       <li key={m} className={"nav_li nav_"+item.text}><a href={item.href} >{item.text}</a></li>
     ));
     return (
-      <ul>{nav}</ul>
+      <div>
+        <ul>{nav}</ul>
+      </div>
     )
   }
 }
